@@ -7,26 +7,22 @@ flowchart LR
 
 subgraph User
     A[👤 Student]
-end
 
 subgraph AI
     B[📰 News Collection]
     C[📊 Impact Analysis]
     D[📚 Historical Analysis]
     E[🧠 AI Summary]
-end
 
 subgraph Learning
     F[🎨 4-Cut Comic]
     G[📖 Detailed Summary]
     H[📈 Learning Analysis]
     I[🎯 Personalized Recommendation]
-end
 
 subgraph Reward
     J[🏆 Challenge]
     K[🎁 OGQ Reward]
-end
 
 A --> B
 B --> C
