@@ -39,4 +39,4 @@ CentLand는 단순한 뉴스 요약 서비스가 아니라,
       (개인 맞춤 기사 및 경제 개념 추천)
                           │
                           ▼
-          Challenge & Reward System (OGQ)
+          Challenge & Reward System (OGQ 이모티콘)
