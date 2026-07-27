@@ -42,7 +42,7 @@ J --> K
 
 ## Tech Stack
 
-Frontend
+Frontend,
 
 - Next.js
 
