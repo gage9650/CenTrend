@@ -1,6 +1,6 @@
 # Architecture
 
-## 🏗 System Architecture
+## 🏗 System Architecture????
 
 ```mermaid
 flowchart LR
@@ -42,7 +42,7 @@ J --> K
 
 ## Tech Stack
 
-Frontend,
+Frontend
 
 - Next.js
 
