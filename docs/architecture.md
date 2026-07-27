@@ -1,31 +1,37 @@
 # Architecture
 
-
-## System Architecture
+## Learning Pipeline
 
 ```mermaid
-flowchart TD
+flowchart LR
 
-A[User]
+A["👤 Student"]
 
---> B[News Collection]
+B["⭐ 관심 종목 등록"]
 
-B --> C[Impact Analysis]
+C["📰 AI 뉴스 탐색"]
 
-C --> D[Historical Analysis]
+D["📊 영향도 분석"]
 
-D --> E[4컷 생성]
+E["📚 과거 사례"]
 
-E --> F[상세 요약]
+F["🎨 4컷 만화"]
 
-F --> G[이해도 분석]
+G["📖 상세 요약"]
 
-G --> H[추천 시스템]
+H["💡 어려운 용어 설명"]
 
-H --> I[도전과제]
+I["🧠 이해도 분석"]
 
-I --> J[OGQ 보상]
+J["🎯 맞춤 기사 추천"]
+
+K["🏆 도전과제"]
+
+L["🎁 OGQ 보상"]
+
+A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L
 ```
+
 
 ## Tech Stack
 
