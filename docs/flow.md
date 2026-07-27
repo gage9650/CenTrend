@@ -1,4 +1,4 @@
-# User Flow
+# Flow
 
 ## Step 1
 
