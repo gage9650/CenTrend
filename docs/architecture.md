@@ -1,42 +1,52 @@
-# 🏗️ Architecture
+# Architecture
 
-CentLand는 단순한 뉴스 요약 서비스가 아니라,
-사용자의 관심 종목과 이해도를 기반으로 경제 뉴스를 개인화하여
-학습 경험을 제공하는 AI 기반 플랫폼입니다.
 
----
+## System Architecture
 
-## Overall Architecture
+```mermaid
+flowchart TD
 
-```text
-                        User
-                          │
-                          ▼
-             관심 산업 · 관심 종목 등록
-                          │
-                          ▼
-                  News Collection AI
-        (뉴스 / 공시 / 논문 / 시장 정보 수집)
-                          │
-                          ▼
-                 Impact Analysis AI
-          (관심 종목 영향도 및 핵심 키워드 분석)
-                          │
-                          ▼
-              Historical Analysis AI
-        (과거 유사 사례 및 시장 반응 분석)
-                          │
-                          ▼
-            AI Summary & Comic Generator
-       (4컷 만화 + 학생 맞춤형 뉴스 요약 생성)
-                          │
-                          ▼
-                 Learning Analysis AI
-      (읽기 시간 · 클릭 · 이해도 데이터 분석)
-                          │
-                          ▼
-             Personalized Recommendation
-      (개인 맞춤 기사 및 경제 개념 추천)
-                          │
-                          ▼
-          Challenge & Reward System (OGQ 이모티콘)
+A[User]
+
+--> B[News Collection]
+
+B --> C[Impact Analysis]
+
+C --> D[Historical Analysis]
+
+D --> E[4컷 생성]
+
+E --> F[상세 요약]
+
+F --> G[이해도 분석]
+
+G --> H[추천 시스템]
+
+H --> I[도전과제]
+
+I --> J[OGQ 보상]
+```
+
+## Tech Stack
+
+Frontend
+
+- Next.js
+
+- React
+
+- TypeScript
+
+- TailwindCSS
+
+Backend
+
+- Supabase (예정)
+
+AI
+
+- OpenAI API (예정)
+
+News
+
+- NewsAPI (예정)
