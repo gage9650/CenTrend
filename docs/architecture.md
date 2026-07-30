@@ -1,7 +1,6 @@
 # Architecture
 
-## 🏗 System Architecture
-
+```mermaid
 flowchart TD
 
 A[👤 Student]
@@ -39,3 +38,25 @@ style J fill:#E8DAEF
 ```
 
 ## Tech Stack
+
+Frontend
+
+- Next.js
+
+- React
+
+- TypeScript
+
+- TailwindCSS
+
+Backend
+
+- Supabase (예정)
+
+AI
+
+- OpenAI API (예정)
+
+News
+
+- NewsAPI (예정)
