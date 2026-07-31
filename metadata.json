@@ -1,0 +1,6 @@
+{
+  "name": "CenTrend",
+  "description": "AI 기반 시사 트렌드 요약, 만화 브리핑 및 커뮤니티 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
