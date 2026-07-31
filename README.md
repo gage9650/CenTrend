@@ -191,8 +191,6 @@ Landing
 
 ✅ 경제 뉴스 4컷 만화
 
-✅ AI 투자 예측
-
 ✅ 게임화(Gamification)
 
 - 퀘스트
