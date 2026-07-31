@@ -177,6 +177,10 @@ Landing
 
 > 📷 스크린샷
 
+
+<img width="1244" height="691" alt="image" src="https://github.com/user-attachments/assets/b5ede352-edae-4911-89ea-c057f5eb40d4" />
+<img width="1454" height="783" alt="image" src="https://github.com/user-attachments/assets/57d317a9-4b79-4326-ae79-0da4505cb2d9" />
+
 ---
 
 # 🎯 CentLand의 차별점
